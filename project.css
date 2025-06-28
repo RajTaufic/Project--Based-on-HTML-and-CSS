@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(211, 24, 24, 0.815);
+    padding: 10px;
+}
+.logo{
+    width: 150px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+.menu-container{
+    display: flex;
+    gap: 15px;
+}
+.banner-img{
+    width: 300px;
+
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.banner-left{
+    width: 400px;
+    line-height: 1.5;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.hire-btn{
+    background-color: blueviolet;
+}
+.project-btn{
+    background-color: blue;
+}
+.title{
+    font-size: 50px;
+}
+.position{
+    font-size: 30px;
+}
+.service-container{
+    margin-top: 30px;
+    /* font-size: 50px;
+    text-align: center; */
+}
+.service-title{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+.service-card{
+    width: 300px;
+    height: 430px;
+    /* margin-top: 300px;
+    font-size: 430px; */
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 50px;
+}
+.service-img{
+    width: 250px;
+}
+.serivce-card-btn{
+    padding: 15px 25px;
+    background-color: rgb(131,138,138);
+    border: none;
+    font-size:18px;
+    color: white;
+    /* text-decoration: none; */
+}
+.service-description{
+
+    margin: 10px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.contact-us{
+    padding: 50px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 4px 4px 8px gray;
+    text-align: center;
+    margin-top: 30px;
+}
+.input-box{
+    padding: 15px;
+    width: 50%;
+    margin-top: 10px;
+}
+.message{
+    width: 40%;
+    height: 100px;
+    margin-top: 15px;
+}
+.submit-btn{
+    width: 25%;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
